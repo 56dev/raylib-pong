@@ -4,6 +4,9 @@
 #include "rlgl.h"
 #include "random.h"
 
+
+
+
 //TYPES, STRUCTS, AND FUNCTIONS
 typedef struct {
 
@@ -44,11 +47,9 @@ Vector2 operator-(const Vector2& lhs, const Vector2& rhs)
 
 
 // Program main entry point
-int main(void)
+int WinMain(void)
 {
     // Initialization
-    
-    std::cout << "Program Starting!" << '\n';
 
     constexpr int screenWidth{ 800 };
     constexpr int screenHeight{ 450 };
